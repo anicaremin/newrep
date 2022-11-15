@@ -1,0 +1,76 @@
+
+body{
+margin: 0%;
+padding: 0%;
+}
+.navbar{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    margin-top: 0;
+
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar li{
+    float: left;
+    padding: 20px;
+
+
+}
+.right li{
+    float: right;
+    color: white;
+}
+.navbar img{
+    float: left;
+}
+.navbar a{
+    color: azure;
+    font-size: larger;
+    font-weight: 900;
+    text-decoration: none;
+}
+.navbar a:hover{
+color: red;
+}
+.navbar li:hover
+{
+    background-color:coral;
+}
+.Movies{ 
+    height:auto;
+    width: 100%;
+    border: 2px solid green;
+}
+.money{
+position: relative;
+margin: auto;
+    
+}
+.money img{
+    position: absolute;
+
+}
+.content{
+   
+    margin-left:10px;;
+    position: absolute;
+    color: azure;
+    font-style: italic;
+    font-size: large;
+    font-weight: bolder;
+    text-shadow: 2px 2px grey;
+}
+button:hover{
+    color: firebrick;
+    background-color: chocolate;
+}
+.content img{
+    float: left;
+}
+h3{
+    color: aliceblue;
+    float: right;
+}

@@ -1,0 +1,56 @@
+.loginform{
+    margin: auto;
+    width: 250px;
+    height:350px;
+    margin-top: 10px;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: black;
+}
+.loginform input{
+    padding: 5px 3px;
+    width: 200px;
+}
+.loginform input[type="text"]{
+    background-color: rgb(174, 168, 168);
+    border: 3px solid rgba(9, 9, 62, 0.04);
+    color: white;
+}
+.loginform input[type="password"]{
+    background-color: rgb(154, 149, 149);
+    border: 3px solid rgba(19, 19, 31, 0.04);
+    color: white;
+}
+.loginform input[type="submit"]{
+    color: white;
+    background-color:grey;
+
+}
+.loginform input[type="submit"]:hover{
+    background-color: gray;
+}
+h1{
+text-align: center;
+font-style: oblique;
+color: white;
+}
+h4{
+    text-align: right;
+    color: rgb(28, 184, 205);
+}
+h5{
+    color: rgb(28, 184, 205);;
+}
+body{
+    background-color: white;
+    background-image: url(/static/img/insta.jpg);
+  background-size: cover;
+}
+img{
+    float: left;
+    margin-top: 20px;
+    margin-left: 7px;
+}
+
+ 

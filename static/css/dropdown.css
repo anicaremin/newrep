@@ -1,0 +1,79 @@
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.drop-content{
+    padding: 10px 20px;
+    box-shadow: 2px 3px 5px black;
+    display: none;
+}
+.dropdown:hover .drop-content{
+    display: block;
+}
+.dropbutton{
+    position: relative;
+    display: inline-block;
+}
+.dropbutton button{
+    padding: 16px;
+    font-size: 16px;
+    background-color: coral;
+    border: none;
+
+}
+.dropdowncontent{
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px green;
+    display: none;
+}
+.dropdowncontent a{
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: brown;    
+}
+.dropdowncontent a:hover{
+    background-color: #f2f2f2;
+
+}
+.dropbutton:hover .dropdowncontent{
+    display: block;
+}
+body{
+    counter-reset: select;
+}
+h3::before{
+    counter-increment: select;
+    content: "No." counter(select)":"
+}
+a[target]{
+    background-color: coral;
+}
+a[target= "_blank"]{
+    background-color: darkgoldenrod;
+}
+a[target= "_top"]{
+    background-color: aquamarine;
+
+}
+img[title*='r']{
+    border: 3px solid brown;
+}
+.container{
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+.container input{
+    padding: 5px;
+    width: 250px;
+}
+.container input[type="button"]{
+    width: 200px;
+}
+.container input[type="text"]{
+    border: none;
+    
+
+}
